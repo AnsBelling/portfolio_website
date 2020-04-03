@@ -29,7 +29,7 @@
 <!-- @todo FAVICON FIXXXXXX -->
 <!-- @todo Add JS to close menu on li click on mobile -->
 
-<body class="scrollable-js">
+<body id="body-js" class="scrollable-js">
 
     <!-- Main Website Container -->
     <div class="container">
@@ -38,7 +38,7 @@
         <section class="sidebar">
 
             <!-- Mobile Menu Botton -->
-            <div id="mobileMenuTrigger" class="sidebar__mobile-menu-button mobile-menu-button-js">
+            <div id="mobile-menu-trigger-js" class="sidebar__mobile-menu-button mobile-menu-button-js">
                 <svg class="burger" width="26" height="18" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M25.993 17.052H8.994v-3.066h17v3.066zm0-7.029H.026V7.04h25.967v2.983zm0-7.023H4.677V0h21.316v3z" />
@@ -53,7 +53,7 @@
             <!-- Website Main Header and tagline description -->
             <!-- @todo Add description! -->
 
-            <h1 class="sidebar__main-title"><a href="#">Anne-Sofie <span class="glitch"
+            <h1 class="sidebar__main-title"><a href="#introduction">Anne-Sofie <span class="glitch"
                         data-text="Belling_">Belling_</span></a></h1>
             <p class="sidebar__main-description"> I design, develop and discuss the <em>how</em>, the <em>why</em> and
                 the <em>what</em> of tomorrow's interactive things. <br> Concept Development // Design Research
@@ -63,14 +63,10 @@
             <!-- / Website Main Header and tagline description -->
 
             <!-- Website Navigation -->
-            <nav class="sidebar__main-navigation mobile-menu-js">
-                <ul>
+            <nav id="mobile-nav-js" class="sidebar__main-navigation mobile-menu-js">
+                <ul id="nav-links-js">
                     <li>
                         <a href="#introduction">Introduction</a>
-
-                    </li>
-                    <li class="sidebar__main-navigation--sub">
-                        <a href="#introduction-content">About me</a>
                     </li>
                     <li>
                         <a href="#portfolio">Portfolio of Experiments</a>
@@ -167,14 +163,15 @@
                     </p>
                     <p class="main-content__text main-content__text--highlight">
                         I also harbour a deep fascination and knowledge of how to use design & technology to
-                        communicate effectively and create meaningful and lasting experiences. I thrive in ambiguity and
-                        fuzzy, exploratory project briefs, especially when I find myself part of interdisciplinary teams
-                        as I find environments with diversity of talent and personality add zest to the design process.
+                        communicate effectively and create meaningful and lasting experiences. I thrive in ambiguity
+                        and fuzzy, exploratory project briefs, especially when I find myself part of interdisciplinary
+                        teams as I find environments with diversity of talent and personality add zest to the design
+                        process.
 
                     </p>
                     <p class="main-content__text main-content__text--highlight">
-                        To learn more about my background and experience, please find a downloadable copy of my CV:<a
-                            href="annesofieBellingCV.pdf" target="_blank"> A.Belling's CV</a>
+                        To learn more about my background and experience, please find a downloadable copy of my
+                        CV:<a href="annesofieBellingCV.pdf" target="_blank"> A.Belling's CV</a>
 
                     </p>
                 </div>
