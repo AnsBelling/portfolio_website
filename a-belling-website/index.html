@@ -21,7 +21,6 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000010">
     <meta name="msapplication-TileColor" content="#000010">
     <meta name="theme-color" content="#fefefe">
-
     <link href="css/normalize.min.css" rel="stylesheet">
     <link href="css/styles.min.css" rel="stylesheet">
 </head>
@@ -53,7 +52,9 @@
 
             <!-- Website Main Header and tagline description -->
             <!-- @todo Add description! -->
-            <h1 class="sidebar__main-title"><a href="#">Anne-Sofie Belling_</a></h1>
+
+            <h1 class="sidebar__main-title"><a href="#">Anne-Sofie <span class="glitch"
+                        data-text="Belling_">Belling_</span></a></h1>
             <p class="sidebar__main-description"> I design, develop and discuss the <em>how</em>, the <em>why</em> and
                 the <em>what</em> of tomorrow's interactive things. <br> Concept Development // Design Research
                 // Speculative
@@ -66,6 +67,10 @@
                 <ul>
                     <li>
                         <a href="#introduction">Introduction</a>
+
+                    </li>
+                    <li class="sidebar__main-navigation--sub">
+                        <a href="#introduction-content">About me</a>
                     </li>
                     <li>
                         <a href="#portfolio">Portfolio of Experiments</a>
@@ -133,8 +138,12 @@
             <!-- Main Header Section -->
             <section class="main-content__section" id="introduction">
                 <header class="main-content__header">
-                    <h2 class="main-content__header-heading">Designer Artist Futurist Technologist
-                        Researcher
+                    <h2 class="main-content__header-heading">
+                        <span class="glitch crosshair" data-text="Designer">Designer</span>
+                        <span class="glitch crosshair" data-text="Artist">Artist</span>
+                        <span class="glitch crosshair" data-text="Futurist">Futurist</span>
+                        <span class="glitch crosshair" data-text="Technologist">Technologist</span>
+                        <span class="glitch crosshair" data-text="Researcher">Researcher</span>
                     </h2>
                     <a href="#introduction-content">
                         <svg class="scroll-play" width="68" height="68" xmlns="http://www.w3.org/2000/svg">
@@ -165,7 +174,7 @@
                     </p>
                     <p class="main-content__text main-content__text--highlight">
                         To learn more about my background and experience, please find a downloadable copy of my CV:<a
-                            href="#" target="_blank"> A.Belling's CV</a>
+                            href="annesofieBellingCV.pdf" target="_blank"> A.Belling's CV</a>
 
                     </p>
                 </div>
@@ -482,9 +491,6 @@
         -->
 
     <!-- @todo Minify CSS and JS before deploying to Netlify -->
-    <!--- SPLITTING I AM DOING IT WRONGG!!!!  -->
-
-    <!--- SPLITTING I AM DOING IT WRONGG!!!!  -->
     <script type="text/javascript" src="js/index.min.js"></script>
 </body>
 
